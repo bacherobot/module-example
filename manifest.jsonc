@@ -1,0 +1,40 @@
+{
+    // Nom unique, plusieurs modules ne peuvent pas avoir le même nom
+    "packageName": "com.example.helloworld",
+
+    // Nom du module
+    "name": "Hello World",
+
+    // Description du module
+    "shortDescription": "Ce module ajoute la commande /helloworld",
+    "longDescription": "Ce module ajoute une commande permettant d'envoyer un message dans le chat.",
+
+    // Message affiché lorsque le module finit de charger (recommandé de laisser vide)
+    "onloadMessage": "je suis totalement inutile oui",
+
+    // Source (par exemple, lien du module sur GitHub),
+    "source": "https://bachero.johanstickman.com/docs/modules/guide",
+
+    // Liste des fichiers à charger
+    "files": [
+        "hello.js"
+    ],
+
+    // Liste du/des auteurs du module
+    "authors": [
+        {
+            "name": "vous",
+            "discordId": "012345678901234567"
+        }
+    ],
+
+	// Configuration du module
+	"config": [
+		{
+			"name": "name",
+			"type": "string", // boolean, string, number, array, object, null
+			"default": "world",
+			"description": "La commande /helloworld affichera quel nom ?"
+		}
+	]
+}
