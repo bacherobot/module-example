@@ -7,13 +7,12 @@
 
     // Description du module
     "shortDescription": "Ce module ajoute la commande /helloworld",
-    "longDescription": "Ce module ajoute une commande permettant d'envoyer un message dans le chat.",
 
     // Message affiché lorsque le module finit de charger (recommandé de laisser vide)
     "onloadMessage": "je suis totalement inutile oui",
 
     // Source (par exemple, lien du module sur GitHub),
-    "source": "https://bachero.johanstickman.com/docs/modules/guide",
+    "source": "https://bachero.johanstick.fr/docs/modules/guide",
 
     // Liste des fichiers à charger
     "files": [
@@ -24,17 +23,18 @@
     "authors": [
         {
             "name": "vous",
-            "discordId": "012345678901234567"
+            "discordId": "012345678901234567",
+            "link": "https://example.com"
         }
     ],
 
-	// Configuration du module
-	"config": [
-		{
-			"name": "name",
-			"type": "string", // boolean, string, number, array, object, null
-			"default": "world",
-			"description": "La commande /helloworld affichera quel nom ?"
-		}
-	]
+    // Configuration du module
+    "config": [
+        {
+            "name": "name",
+            "type": "string", // boolean, string, number, array, object, null
+            "default": "world",
+            "description": "La commande /helloworld affichera quel nom ?"
+        }
+    ]
 }
