@@ -1,6 +1,6 @@
 # Exemple de module
 
-[*fait pour la documentation de Bachero*](https://bachero.johanstick.me/docs/modules/guide)
+[*fait pour la documentation de Bachero*](https://bachero.johanstick.fr/docs/modules/guide)
 
 ### Installation
 
